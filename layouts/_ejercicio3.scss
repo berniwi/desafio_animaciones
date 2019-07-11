@@ -1,3 +1,23 @@
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes moverder{
+    0%{
+        justify-content: flex-start;
+    }
+
+    100%{
+        justify-content: flex-end;
+    }
+}
+
 .ej_3{
 
     font-family: 'Roboto', sans-serif;
@@ -23,6 +43,9 @@
             svg{
                 width: 20%;
                 height: auto;
+                animation: aparecer 1s;
+                animation-direction: normal;
+                animation-iteration-count: infinite;
             }
         }
 
@@ -31,11 +54,18 @@
             font-size: 60px;
             width: 80%;
             padding-left: 10%;
+            animation: aparecer 1s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
         }  
+
         p{
             font-weight: 300;
             width: 80%;
             padding: 0 0 15% 10%;
+            animation: aparecer 1s;
+            animation-direction: normal;
+            animation-iteration-count: infinite;
         }
     }
 
@@ -50,6 +80,7 @@
 
             svg{
                 height: 50%;
+                animation: moverder 2s;
             }
         }
 
@@ -61,6 +92,9 @@
                 position: relative;
                 height: 70%;
                 top: -120px;
+                animation: aparecer 1s;
+                animation-direction: normal;
+                animation-iteration-count: infinite;
             }
         }
 
@@ -89,3 +123,4 @@
 
 
 }
+
