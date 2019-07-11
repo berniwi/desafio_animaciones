@@ -46,4 +46,79 @@
   cursor: pointer;
 }
 
+.ej_3 {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.ej_3 * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.ej_3 .blue {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #7AC0E4;
+  height: 70vh;
+}
+.ej_3 .blue .sun {
+  width: 80%;
+  padding: 2% 0 0 10%;
+}
+.ej_3 .blue .sun svg {
+  width: 20%;
+  height: auto;
+}
+.ej_3 .blue h1 {
+  font-weight: 700;
+  font-size: 60px;
+  width: 80%;
+  padding-left: 10%;
+}
+.ej_3 .blue p {
+  font-weight: 300;
+  width: 80%;
+  padding: 0 0 15% 10%;
+}
+.ej_3 .gray {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  background-color: #F0EDDA;
+}
+.ej_3 .gray .umbrella {
+  width: 50%;
+}
+.ej_3 .gray .umbrella svg {
+  height: 50%;
+}
+.ej_3 .gray .palm {
+  width: 20%;
+  width: 25;
+}
+.ej_3 .gray .palm svg {
+  position: relative;
+  height: 70%;
+  top: -120px;
+}
+.ej_3 .gray .persona {
+  width: 15%;
+  display: flex;
+  align-items: flex-end;
+}
+.ej_3 .gray .persona svg {
+  height: 60%;
+}
+.ej_3 .gray .ball {
+  width: 10%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ej_3 .gray .ball svg {
+  height: 25%;
+  width: auto;
+}
+
 /*# sourceMappingURL=main.css.map */
